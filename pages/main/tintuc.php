@@ -33,7 +33,7 @@
 
 	<div style="width: 55%" class="main-container-1">
 		<div class="block-news">
-			<img src="../images/Viettel.jpg"><br><br> 
+			<img src="../images/viettel.jpg"><br><br> 
 			<a href="https://3gviettel.vn/khuyen-mai-viettel" target="_blank">October promotion calendar <br>  Viettel network operator</a>
 			<p>Will be continuously updated as soon as possible</p>
 		</div></div>
