@@ -1,6 +1,6 @@
 <?php 
 
-	$mysqli = new mysqli("localhost","root","mysql","webcard");
+	$mysqli = new mysqli("sql6.freesqldatabase.com","sql6431813","Q6B9IGFRlL","webcard");
 
 	// Check connection
 	if ($mysqli->connect_errno) {
