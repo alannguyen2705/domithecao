@@ -1,0 +1,426 @@
+/* search google font*/
+@font-face{
+	src: url(../GOCLAMWEB/HelveticaWorld-Regular.ttf);
+	src: url(../GOCLAMWEB/Lemonada-VariableFont_wght.ttf);
+	src: url(../GOCLAMWEB/Lato-Black.ttf);
+	src: url(../GOCLAMWEB/Mulish-VariableFont_wght.ttf);
+	src: url(../GOCLAMWEB/Roboto-Bold.ttf);
+	font-family: Roboto;
+	font-family: Mulish;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.font-1{
+	font-family: Mulish;
+}
+
+
+.font-2{
+	line-height: 2px;
+	font-size: 25px;
+}
+
+ 
+.topnav {
+    overflow: hidden;
+    background-color: #005500; /*viền màu đen của chữ tintuc,lienhe,hdmh*/
+
+}
+ 
+.topnav a {
+    float: left;
+    color: white;
+    padding: 14px 16px; /* 14px: top and bottom # 16px; left and right */
+    text-decoration: none;
+    font-size: 17px;
+
+}
+ 
+.topnav a:hover {
+    background-color: #ddd; /*hiển thị nền trắng khi trỏ chuột vào */ 
+    color: black;
+}
+ 
+.topnav a.active {
+    background-color: #993300; /* chữ trang chu */
+    color: white;
+}
+
+.font-0{
+	margin-bottom: 50px;
+}
+
+.title{
+		background-image: url(2021.jpg);
+		width: 100%;
+		height: 500px;
+		background-size: cover; /* hình lúc nào cũng vừa đủ đúng với web */
+		text-align: center; /* chữ trong khối lớn vào giữa */
+		/* cho khoi lon vao giua */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+
+.khoi-1{
+	width: 60%;
+	height: 55%;
+	background-color: #00000054;
+	/*opacity: 0.6; /* điều chỉnh độ nhạt của background color */
+}
+
+.search-box{
+	width: 50%;
+	height: 25px;
+	background-color: white;
+	margin: auto; /* khung tự động vào giữa */
+}
+
+.search-box i{
+	width: 28px;
+	height: 25px;
+	float: right;
+	font-size: 20px;
+	padding-right: 5px;
+	background-color: #D5C808;
+}
+
+
+.khoi-trang-chu{
+	background-color: #FFF0F5;
+	width: 930px;
+	height: 380px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 0.5px solid #F5F5F5;
+	display: block; /* khoa display de ko bi di chuyen */
+}
+
+
+.hinh-nen-1{
+	margin-bottom: 15px;
+
+}
+
+.Sale-15{
+	background-color: #FF6666;
+	margin-left: 20px;
+	width: 600px;
+	height: 400px;
+	float: left;
+	padding-top: 20px;
+	margin-top: 30px;
+	display: block;
+}
+
+.Sale-15-1{
+	background-image: url(mua-hang-1.jpg);
+	width: 600px;
+	height: 400px;
+	float: left;
+	padding-top: 20px;
+	margin-top: 30px;
+	display: block;
+
+}
+
+.doan-van{
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 30px;
+	transition: 0.5s;
+}
+
+
+.hinh-anh{
+	width: 190px;
+	float: right;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	background-color: transparent;
+}
+
+
+.khoi-lon{
+	width: 950px;
+	border: 1px solid #F5F5F5;
+	margin: 20px;
+}
+
+
+
+.dat-hang:hover{
+	color: #43CD80;
+	text-decoration: none;
+
+}
+
+.background{
+	font-size: 25px;
+	float: right;
+}
+.main-contain{
+	margin: 0px;
+	width: 950px;
+	overflow: hidden;
+}
+
+	
+
+div.khoi-tin-nho{
+	width: 260px;
+	float: left;
+	margin-right: 20px;
+}
+
+div.tieu-de{
+	color: black;
+	border-bottom: 1.5px solid black;
+	margin-top: 250px;
+	font-weight: bold;
+
+}
+.main-container{
+	width: 380px;
+	height: 190px;
+	margin: 30px;
+	padding: 15px;
+	background-color: #CFCFCF;
+	float: right;
+}
+
+.follow-title{
+	border-bottom: 2px solid black;
+	font-family: roboto;		
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.follow-title h3{
+	color: #FFDEAD;
+	background-color: black;
+	display: inline; /*dinh lien lai */	
+	padding: 5px 15px;
+	overflow: hidden; /* đễ tránh bị lỗi cách khung bên trong */
+	line-height: 17px;
+	font-size: 17px;
+}
+
+
+.follow-icon-1{
+	float: left;
+}
+
+.icon-1{
+	background-color: #008800;
+	width: 250px;
+	height: 310px;
+	float: left;
+	margin-right: 25px;
+	margin-left: 30px;
+	text-align: center;
+	margin-bottom: 50px;
+	transition: 0.3s;
+}
+
+.icon-1:hover{
+	background-color: #008B45;
+	width: 260px;
+	height: 290px;
+	margin-top: 10px;
+	transition: 0.5s;
+	opacity: 0.7;
+
+}
+
+
+
+.icon{
+	width: 120px;
+	height: 130px;
+	background-color: #DF0029;
+	margin-top: 15px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	transition: 0.4s; /* di chuyển chậm rút trỏ chuột về */
+}
+
+.icon:hover{
+		background-color: black;
+		margin-top: 10px;
+		transition: 0.6s; /* hiệu ứng di chuyển chậm */
+}
+
+.icon i{
+	font-size: 40px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+
+
+.phan-3-video{
+	margin-top: 20px;
+	text-align: center;
+	width: 100%;
+	background-color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hdmh-1{
+	float: right;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.img{
+	margin-top: 70px;
+}
+
+.hdmd{
+	font-size: 35px;
+}
+
+.news{
+	width: 960px;
+	padding-top: 0px;
+	padding-left: 40px;
+	float: left;
+
+}
+
+.news-1{
+	margin-right: 30px;
+	float: left;	
+	width: 260px;
+	padding: 35px;
+}
+
+.news-2{
+	margin-top: 30px;
+	margin-right: 70px;
+	padding-right: 100px;
+}
+
+.main-container-1{
+	background-color: #F5F5F5;
+	width: 720px;
+	padding: 10px;
+	text-align: center;
+	border: 0.8px solid grey;
+	border-radius: 30px;
+
+}
+
+.block-news{
+	width: 700px;
+	height: 170px;
+	padding-left: 10px; /* đẩy qua phải */
+	padding-top: 5px; /* đẩy xuống */
+	overflow: hidden;
+	border-radius: 30px;
+}
+
+.block-news img{
+	width: 180px;
+	height: 160px;
+	float: left;
+	box-shadow: 2px 2px 7px;
+}
+
+.block-news:hover img{
+	box-shadow: 5px 5px 7px;
+}
+
+.block-news a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.block-news:hover a{
+	color: #20B2AA;
+}
+
+.block-news p{
+	color: grey;
+}
+
+.block-news:hover p{
+	color: black;	
+}
+.khoi-1{
+	padding-top: 5%;
+}
+
+
+
+
+
+
+
